@@ -74,4 +74,96 @@
       }
     ]
   }
+{
+  "id": "fakecryptpad",
+  "name": "Fake CryptPad",
+  "url": "http://10.4.0.13:7001",
+  "version": "2.0.0",
+  "capabilities": [
+    {
+      "action": "PICK",
+      "properties": {
+        "mimeTypes": [
+          "text/uri-list",
+          "text/plain",
+          "application/octet-stream",
+          "application/pdf"
+        ],
+        "sourceItems": [
+          "f-001",
+          "f-002",
+          "f-003"
+        ]
+      },
+      "path": "select.html"
+    },
+    {
+      "action": "SAVE",
+      "properties": {
+        "mimeTypes": [
+          "text/uri-list",
+          "text/plain",
+          "application/octet-stream",
+          "application/pdf"
+        ]
+      },
+      "path": "share.html"
+    }
+  ]
+}
+{
+  "id": "fakewebmail",
+  "name": "Fake Webmail",
+  "url": "http://10.4.0.13:7002",
+  "version": "2.0.0",
+  "capabilities": [
+    {
+      "action": "SAVE",
+      "properties": {
+        "mimeTypes": [
+          "text/uri-list",
+          "application/octet-stream",
+          "application/pdf"
+        ]
+      },
+      "path": "share.html"
+    }
+  ]
+}
+{
+  "id": "fakexwiki",
+  "name": "Fake XWiki",
+  "url": "http://10.4.0.13:7003",
+  "version": "2.0.0",
+  "capabilities": [
+    {
+      "action": "PICK",
+      "properties": {
+        "mimeTypes": [
+          "text/uri-list",
+          "text/plain",
+          "application/octet-stream",
+          "application/pdf"
+        ],
+        "sourceItems": [
+          "xwiki-001",
+          "xwiki-002"
+        ]
+      },
+      "path": "select.html"
+    },
+    {
+      "action": "SAVE",
+      "properties": {
+        "mimeTypes": [
+          "text/uri-list",
+          "text/plain",
+          "application/octet-stream",
+          "application/pdf"
+        ]
+      },
+      "path": "share.html"
+    }
+  ]
+} 
 ]
